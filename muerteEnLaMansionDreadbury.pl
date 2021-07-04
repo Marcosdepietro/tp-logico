@@ -17,11 +17,6 @@ Mostrar la consulta utilizada y la respuesta obtenida.*/
 
 % Base de conocimentos
 
-/*persona(agatha).
-persona(mayordomo).
-persona(charles).
-persona(milhouse).*/
-
 viveEnLaMansion(agatha).
 viveEnLaMansion(mayordomo).
 viveEnLaMansion(charles).
