@@ -35,13 +35,13 @@ odia(charles,Victima):-
     not(odia(agatha,Victima)).
 
 masRicoQue(Victima,agatha):-
-    not(odia(mayordomo,Victima)),
-    viveEnLaMansion(Victima).
-
+    viveEnLaMansion(Victima),
+    not(odia(mayordomo,Victima)).
+   
 mata(Persona,Victima):-
+    viveEnLaMansion(Persona),
     odia(Persona,Victima),
-    not(masRicoQue(Persona,Victima)),
-    viveEnLaMansion(Persona).
+    not(masRicoQue(Persona,Victima)).
 /*
 mata(Persona,agatha).
 Persona = agatha ;
